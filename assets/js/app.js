@@ -9,13 +9,13 @@ particlesJS('particles-js',
         }
       },
       "color": {
-        "value": "#000000"
+        "value": "#E1AFD1"
       },
       "shape": {
         "type": "star", // Changed to "image"
         "stroke": {
           "width": 0,
-          "color": "#000000"
+          "color": "#E1AFD1"
         },
         "image": {
           "src": "assets/images/app-development.png", // Ensure this path is correct
@@ -46,7 +46,7 @@ particlesJS('particles-js',
       "line_linked": {
         "enable": true,
         "distance": 150,
-        "color": "#000000",
+        "color": "#E1AFD1",
         "opacity": 0.4,
         "width": 1
       },
@@ -105,7 +105,7 @@ particlesJS('particles-js',
     "retina_detect": true,
     "config_demo": {
       "hide_card": false,
-      "background_color": "#000000",
+      "background_color": "#E1AFD1",
       "background_image": "",
       "background_position": "50% 50%",
       "background_repeat": "no-repeat",

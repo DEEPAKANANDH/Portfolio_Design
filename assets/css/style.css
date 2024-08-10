@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap');
 
 * {
   margin: 0;
@@ -17,12 +18,12 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background: #f7f7f7;
+  background: #000000;
   font-family: "Poppins", sans-serif;
 }
 
 *::selection {
-  background: #2b3dda;
+  background: #81689D;
   color: #fff;
 }
 
@@ -70,8 +71,8 @@ header {
   justify-content: space-between;
   padding: 1.7rem 10%;
   height: 6.5rem;
-  background-color: #fff;
-  box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
+  background-color: #000;
+  box-shadow: 0 1px 4px #000;
 }
 section {
   min-height: 100vh;
@@ -84,7 +85,7 @@ section {
   text-align: center;
 }
 .heading span {
-  color: rgb(115, 3, 167);
+  color: #7469B6;
 }
 header .logo {
   font-size: 1.9rem;
@@ -103,22 +104,23 @@ header .navbar ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-top: 20px;
 }
 header .navbar li {
-  margin-left: 2.5rem;
+  margin-left: 6rem;
 }
 header .navbar ul li a {
-  font-size: 1.57rem;
-  color: #0e2431;
+  font-size: 1.65rem;
+  color: #c3c0d8;
   font-weight: 600;
   text-decoration: none;
-  letter-spacing: 0.04rem;
+  letter-spacing: 0.02rem;
   transition: 0.2s;
 }
 header .navbar ul li a.active,
 header .navbar ul li a:hover {
-  color: #011aff;
-  border-bottom: 0.2rem solid #011aff;
+  color: #7469B6;
+  border-bottom: 0.2rem solid #7469B6;
   padding: 0.5rem 0;
 }
 /* navbar ends */
@@ -224,22 +226,24 @@ header .navbar ul li a:hover {
 .home .content h2 {
   font-size: 5rem;
   font-weight: 800;
-  color: #002057;
+  color: #7469B6;
+  /* font-family:"Domine"; */
+
 }
 .home .content h2 span {
   font-size: 5rem;
   font-weight: 800;
-  color: #ff7b00;
+  color: #E7F0DC;
 }
 .home .content p {
   font-size: 2.5rem;
-  color: #000;
+  color: #EEEEEE;
   font-weight: 600;
   padding: 1rem 0;
 }
 .home .content p span {
   font-size: 2.5rem;
-  color: rgb(148, 8, 8);
+  color: #7469B6;
   font-weight: 600;
   padding: 1rem 0;
 }
@@ -250,9 +254,9 @@ header .navbar ul li a:hover {
   padding: 1.6rem 3rem;
   border-radius: 4em;
   transition: 0.5s;
-  color: #fff;
-  background: #2506ad;
-  box-shadow: 0px 5px 18px rgba(48, 68, 247, 0.6);
+  color: #FFFF;
+  background: #7469B6;
+  box-shadow: 0px 5px 16px #7469B6;
   font-family: "Nunito", sans-serif;
 }
 .home .btn span {
@@ -266,7 +270,7 @@ header .navbar ul li a:hover {
   transition: 0.3s;
 }
 .home .btn:hover {
-  background: #1a047e;
+  background: #7469B6;
 }
 .home .btn:hover i {
   transform: translateX(5px);
@@ -289,8 +293,8 @@ header .navbar ul li a:hover {
   font-size: 2rem;
   display: inline-block;
   line-height: 44px;
-  color: #00d9ff;
-  background-color: #09011b;
+  color: #7469B6;
+  background-color: #1F2544;
   width: 44px;
   height: 44px;
   text-align: center;
@@ -304,22 +308,22 @@ header .navbar ul li a:hover {
 .social-icons a:focus,
 .social-icons a:hover {
   color: #fff;
-  background-color: #0685da;
+  background-color: #7469B6;
 }
 .social-icons a.github:hover {
-  background-color: #0e0e0e;
+  background-color: #7469B6;
 }
 .social-icons a.twitter:hover {
-  background-color: #00aced;
+  background-color: #7469B6;
 }
 .social-icons a.linkedin:hover {
-  background-color: #007bb6;
+  background-color: #7469B6;
 }
 .social-icons a.dev:hover {
-  background-color: #070707;
+  background-color: #7469B6;
 }
 .social-icons a.instagram:hover {
-  background-color: #ee00da;
+  background-color: #7469B6;
 }
 /* social icons end */
 
@@ -346,7 +350,7 @@ header .navbar ul li a:hover {
 
 /* about section starts */
 .about {
-  background: rgb(255, 255, 255);
+  background: #c3c0d8;
 }
 .about .row {
   display: flex;
@@ -364,8 +368,6 @@ header .navbar ul li a:hover {
   width: 30rem;
   height: auto;
   border-radius: 5%;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
-  mix-blend-mode: luminosity;
   transition: 0.3s;
   cursor: pointer;
 }
@@ -377,12 +379,12 @@ header .navbar ul li a:hover {
   padding: 3rem;
 }
 .about .row .content h3 {
-  color: rgb(27, 27, 27);
+  color: #4c498d;
   font-size: 2.5rem;
 }
 .about .row .content .tag {
   font-size: 1.4rem;
-  color: #020133;
+  color: #4c498d;
   font-weight: 600;
   margin-top: 1rem;
 }
@@ -404,7 +406,7 @@ header .navbar ul li a:hover {
   text-transform: none;
 }
 .about .row .content .box-container .box p span {
-  color: #011aff;
+  color:#4c498d;
 }
 .resumebtn {
   margin-top: 6rem;
@@ -414,8 +416,8 @@ header .navbar ul li a:hover {
   border-radius: 0.5em;
   transition: 0.3s;
   color: #fff;
-  background: #2506ad;
-  box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+  background: #4c498d;
+  box-shadow: 0px 5px 10px #4c498d;
   font-family: "Nunito", sans-serif;
 }
 .resumebtn .btn span {
@@ -429,7 +431,7 @@ header .navbar ul li a:hover {
   transition: 0.3s;
 }
 .resumebtn .btn:hover {
-  background: #1a047e;
+  background: #4c498d;
 }
 .resumebtn .btn:hover i {
   transform: translateX(5px);
@@ -461,17 +463,17 @@ header .navbar ul li a:hover {
 /* skills section starts */
 .skills {
   min-height: 90vh;
-  background: linear-gradient(to bottom, #57059e, #4a00e0);
+  background: linear-gradient(to bottom, #000, #1e1f27);
 }
 .skills h2 {
-  color: #fff;
+  color: #7469B6;
 }
 .skills .heading span {
-  color: rgb(255, 230, 0);
+  color: #c3c0d8;
 }
 .skills .container {
-  background: rgba(0, 0, 22, 0.4);
-  color: #fff;
+  background: #c3c0d8;
+  color: #c3c0d8;
   border-radius: 1rem;
   padding: 2rem;
   width: 70%;
@@ -488,12 +490,12 @@ header .navbar ul li a:hover {
   margin-bottom: 15px;
   padding: 10px;
   border-radius: 1rem;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  background: rgba(0, 0, 22, 0.9);
+  box-shadow: 0 4px 10px #1d1931;
+  background: #1d1931;
   transition: 0.2s;
 }
 .skills .container .bar:hover {
-  box-shadow: 0 8px 10px rgba(0, 2, 68, 0.8) !important;
+  box-shadow: 0 8px 10px rgba(7, 9, 72, 0.8) !important;
   background-color: rgba(0, 0, 0, 0.9) !important;
 }
 .skills .container .bar .info {
@@ -589,7 +591,7 @@ header .navbar ul li a:hover {
 }
 .education .box-container .box .content h3 {
   font-size: 2.5rem;
-  color: #012970;
+  color: #1d1931;
   padding: 0.5rem 0;
   font-weight: 600;
   text-align: left;
@@ -642,15 +644,15 @@ header .navbar ul li a:hover {
 
 /* work section starts */
 .work {
-  /* background: #010124; */
-  background: linear-gradient(to bottom, #000031, #00002c);
+  min-height: 90vh;
+  background: linear-gradient(to bottom, #000, #1e1f27);
 }
 .work h2 {
-  color: #fff;
+  color:#7469B6;
   padding: 1rem;
 }
 .work .heading span {
-  color: rgb(255, 230, 0);
+  color: #c3c0d8;
 }
 .work .box-container {
   display: flex;
@@ -689,7 +691,7 @@ header .navbar ul li a:hover {
   height: 4.5rem;
   width: 100%;
   padding-left: 1rem;
-  background: #ffd900;
+  background: #E2BBE9;
 }
 .work .box-container .box .content .tag h3 {
   font-size: 2rem;
@@ -761,6 +763,9 @@ header .navbar ul li a:hover {
 /* work section ends */
 
 /* experience section starts */
+.experience{
+  background:#e5ecfb;
+}
 .experience .timeline {
   position: relative;
   max-width: 1200px;
@@ -770,12 +775,15 @@ header .navbar ul li a:hover {
   content: "";
   position: absolute;
   width: 6px;
-  background: #020133;
+  background: #d7d7d7;
   top: 0;
   bottom: 0;
   left: 50%;
   margin-left: -3px;
   z-index: -2;
+}
+.experience .heading{
+  color: #1d1931;
 }
 .experience .container {
   padding: 10px 40px;
@@ -791,7 +799,7 @@ header .navbar ul li a:hover {
   height: 25px;
   right: -17px;
   background-color: rgb(255, 255, 255);
-  border: 4px solid #ff9f55;
+  border: 4px solid #4c498d;
   top: 15px;
   border-radius: 50%;
   z-index: 100;
@@ -816,9 +824,9 @@ header .navbar ul li a:hover {
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid #f68c09;
+  border: medium solid #4c498d;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #f68c09;
+  border-color: transparent transparent transparent #4c498d;
 }
 /* arrows pointing left  */
 .experience .right::before {
@@ -829,15 +837,16 @@ header .navbar ul li a:hover {
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid #f68c09;
+  border: medium solid #4c498d;
   border-width: 10px 10px 10px 0;
-  border-color: transparent #f68c09 transparent transparent;
+  border-color: transparent #4c498d transparent transparent;
 }
 .experience .right::after {
   left: -16px;
 }
 .experience .content {
-  background-color: #f68c09;
+  color: white;
+  background-color: #4c498d;
   position: relative;
   border-radius: 6px;
 }
@@ -869,8 +878,8 @@ header .navbar ul li a:hover {
   border-radius: 0.5em;
   transition: 0.5s;
   color: #fff;
-  background: #2506ad;
-  box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+  background: #4c498d;
+  box-shadow: 0px 5px 10px #4c498d;
   text-align: center;
 }
 .morebtn .btn span {
@@ -911,9 +920,9 @@ header .navbar ul li a:hover {
   }
   .experience .container::before {
     left: 61px;
-    border: medium solid #f68c09;
+    border: medium solid #4c498d;
     border-width: 10px 10px 10px 0;
-    border-color: transparent #f68c09 transparent transparent;
+    border-color: transparent #4c498d transparent transparent;
   }
   .experience .left::after {
     left: 15px;
@@ -933,16 +942,19 @@ header .navbar ul li a:hover {
 
 /* contact section starts */
 .contact {
-  background: #e5ecfb;
+  background: linear-gradient(to bottom, #000, #1e1f27);
   min-height: 60vh;
 }
 .contact .container {
   max-width: 1050px;
   width: 100%;
-  background: #fff;
+  background: #e5ecfb;
   border-radius: 1.5rem;
   margin: 2rem 5rem;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+.contact .heading{
+  color: #e5ecfb;
 }
 .contact .container .content {
   display: flex;
@@ -1042,13 +1054,13 @@ form .button-area {
   cursor: pointer;
   border-radius: 5px;
   padding: 13px 25px;
-  background: #2506ad;
+  background: #4c498d;
   box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
   transition: 0.3s ease;
   font-family: "Nunito", sans-serif;
 }
 .button-area button:hover {
-  background: #421cecf5;
+  background:#4c498d;
 }
 .button-area span {
   font-size: 17px;
